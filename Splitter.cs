@@ -36,6 +36,6 @@ class FileSplitter
             }
         }
 
-        Console.WriteLine("Fertig");
+        Console.WriteLine("Done");
     }
 }
