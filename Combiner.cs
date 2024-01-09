@@ -39,12 +39,12 @@ class FileBinder
                     }
                 } while (true);
 
-                Console.WriteLine("Fertig");
+                Console.WriteLine("Done");
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Fehler: {ex.Message}");
+            Console.WriteLine($"Error: {ex.Message}");
         }
     }
 }
